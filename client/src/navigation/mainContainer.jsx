@@ -5,9 +5,11 @@ import BuscarPedido from "../scenes/buscarPedido"
 import Clientes from "../scenes/clientes"
 import Prendas from "../scenes/prendas"
 import Registros from "../scenes/registros"
+import NavTabs from "./index"
+import LogoSceen from "../scenes/logoScreen";
 
 export default function MainContainer() {
-  const [currentPage, setCurrentPage] = useState("recibirPedido");
+  const [currentPage, setCurrentPage] = useState("");
 
 
   const renderPage = () => {
@@ -25,7 +27,7 @@ export default function MainContainer() {
       case "registros":
         return <Registros />;
       default:
-        break;
+        return <LogoSceen />;
     }
   };
 
@@ -37,7 +39,6 @@ export default function MainContainer() {
       <NavTabs currentPage={currentPage} pageSetter={pageSetter} />
 
       {renderPage()}
-      {/* {currentPage !== "AboutMe" ? <Footer /> : null} */}
     </div>
   );
 }

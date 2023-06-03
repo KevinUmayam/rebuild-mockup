@@ -1,7 +1,7 @@
 const BuscarPedido = () => {
 
   return (
-<div>BuscarPedido</div>
+<div className="bg-custom-light-gray w-screen h-screen">BuscarPedido</div>
   );
 };
 
