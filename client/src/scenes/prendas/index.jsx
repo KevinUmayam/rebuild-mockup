@@ -1,7 +1,9 @@
 const Prendas = () => {
 
   return (
-<div>Prendas</div>
+ <div className="bg-custom-light-gray w-screen h-screen flex justify-end">
+      <div className="bg-custom-gray h-screen w-1180 "></div>
+    </div>
   );
 };
 

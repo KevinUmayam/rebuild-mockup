@@ -7,6 +7,7 @@ import Prendas from "../scenes/prendas"
 import Registros from "../scenes/registros"
 import NavTabs from "./index"
 import LogoSceen from "../scenes/logoScreen";
+import NavBtn from "../components/NavButton";
 
 export default function MainContainer() {
   const [currentPage, setCurrentPage] = useState("");
@@ -34,10 +35,9 @@ export default function MainContainer() {
   const pageSetter = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="h-screen w-screen overflow-hidden">
       {/* passing props to child NavTabs */}
       <NavTabs currentPage={currentPage} pageSetter={pageSetter} />
-
       {renderPage()}
     </div>
   );
