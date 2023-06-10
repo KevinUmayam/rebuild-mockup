@@ -37,7 +37,7 @@ const RecibirPedido = () => {
   );
   return (
     // gray page div
-<div className="bg-custom-light-gray w-screen h-screen flex justify-end">
+<div className="bg-custom-light-gray  h-screen flex pl-260">
   <div className="bg-custom-gray h-screen w-1180 ">
 
 {/* Divs de arriba */}
@@ -125,28 +125,31 @@ const RecibirPedido = () => {
         <h1 className='text-white text-30 mr-5'>Total: $000.00</h1>
     </div> 
 <div className='h-460 w-1160 border-t-2 border-b-2  border-black grid grid-cols-recibir'>
+
       <div className="bg-custom-light-gray border border-l-2 border-black">
-        <div className=' bg-custom-gray h-60 w-270 flex justify-center items-center border-b-2 border-black'>
+        
+        <div className=' bg-custom-gray h-60 flex justify-center items-center border-b-2 border-black'>
           <h1 className='text-white text-25'>Camisa-001</h1>
           </div>
       </div>
       <div className="bg-custom-light-gray border border-black">
-        <div className=' bg-custom-gray h-60 w-270 flex justify-center items-center border-b-2 border-black'>
+        <div className=' bg-custom-gray h-60 flex justify-center items-center border-b-2 border-black'>
           <h1 className='text-white text-25'>2 Unids</h1>
           </div>
       </div>
       <div className="bg-custom-light-gray border border-black">
-        <div className=' bg-custom-gray h-60 w-270 flex justify-center items-center border-b-2 border-black'>
+        <div className=' bg-custom-gray h-60 flex justify-center items-center border-b-2 border-black'>
           <h1 className='text-white text-25'>$100.00</h1>
           </div>
       </div>
       <div className="bg-custom-light-gray border border-black">
-        <div className=' bg-custom-gray h-60 w-270 flex justify-center items-center border-b-2 border-black'>
+        <div className=' bg-custom-gray h-60 flex justify-center items-center border-b-2 border-black'>
           <h1 className='text-white text-25'>$200.00</h1>
           </div>
+          
       </div>
       <div className="bg-custom-light-gray border border-r-2 border-black">
-        <div className=' bg-custom-gray h-60 w-78 flex justify-center items-center border-b-2 border-black'>
+        <div className=' bg-custom-gray h-60 flex justify-center items-center border-l-1  border-r-1 border-b-2  border-black'>
           <AiOutlineClose className=" text-red-500" size={55}></AiOutlineClose>
           </div>
       </div>

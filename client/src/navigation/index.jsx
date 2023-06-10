@@ -13,11 +13,7 @@ const styles = {
 };
 
 function NavTabs({ currentPage, pageSetter }) {
-    const [menu, setMenu] = useState(false)
 
-    const switchMenu = () => {
-    setMenu(!menu)
-    }
 // convenient variables
 const btName = [
   'Recibir pedido',
