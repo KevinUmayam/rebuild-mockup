@@ -40,7 +40,7 @@ const pages = [
         <div className=" flex justify-center">
             <ul>
                 {/* lista de botones */}
-                <li className="mt-50">
+                <li className="mt-40">
                     <a 
                         href={`#${pages[0]}`}
                         onClick={() => pageSetter(pages[0])}
@@ -52,7 +52,7 @@ const pages = [
                     </a>
                 </li>
                 {/* 2 */}
-                <li className="mt-50">
+                <li className="mt-30">
                     <a 
                         href={`#${pages[1]}`}
                         onClick={() => pageSetter(pages[1])}
@@ -64,7 +64,7 @@ const pages = [
                     </a>
                 </li>
                 {/* 3 */}
-                <li className="mt-50">
+                <li className="mt-30">
                     <a 
                         href={`#${pages[2]}`}
                         onClick={() => pageSetter(pages[2])}
@@ -76,7 +76,7 @@ const pages = [
                     </a>
                 </li>
                 {/* 4 */}
-                <li className="mt-50">
+                <li className="mt-30">
                     <a 
                         href={`#${pages[3]}`}
                         onClick={() => pageSetter(pages[3])}
@@ -88,7 +88,7 @@ const pages = [
                     </a>
                 </li>
                 {/* 5 */}
-                <li className="mt-50">
+                <li className="mt-30">
                     <a 
                         href={`#${pages[4]}`}
                         onClick={() => pageSetter(pages[4])}
@@ -100,7 +100,7 @@ const pages = [
                     </a>
                 </li>
                 {/* 6 */}
-                <li className="mt-50">
+                <li className="mt-30">
                     <a 
                         href={`#${pages[5]}`}
                         onClick={() => pageSetter(pages[5])}
