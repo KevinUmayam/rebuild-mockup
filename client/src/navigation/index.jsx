@@ -1,7 +1,4 @@
-import { React, useState } from "react";
 import Logo from "../components/assets/mockupLogo.jpeg"
-import NavBtn from "../components/NavButton";
-
 
 const styles = {
      text: {

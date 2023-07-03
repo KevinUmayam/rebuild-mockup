@@ -7,7 +7,6 @@ import Prendas from "../scenes/prendas"
 import Registros from "../scenes/registros"
 import NavTabs from "./index"
 import LogoSceen from "../scenes/logoScreen";
-import NavBtn from "../components/NavButton";
 
 export default function MainContainer() {
   const [currentPage, setCurrentPage] = useState("");

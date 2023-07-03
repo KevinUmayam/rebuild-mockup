@@ -144,7 +144,7 @@ const Registros = () => {
 
           </div>
              {/* second box */}
-        <div className=' bg-custom-gray h-1/2 flex justify-center items-center border-b-2 border-black rounded-br-md flex-col'>
+        <div className=' bg-custom-gray h-1/2 flex justify-center items-center rounded-br-md flex-col'>
           <div className="h-24 flex justify-center items-center">
           <span className='text-custom-light-gray text-35 break-words w-220 text-center'>Notas Generadas</span>
           </div>
